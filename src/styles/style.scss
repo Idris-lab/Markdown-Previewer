@@ -1,0 +1,68 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Kanit&family=Oswald&display=swap");
+
+$general-rule: #C4D9D6;
+/*
+@mixin box-shadow($x, $y, $z, $blur, $c){
+    -webkit-box-shadow:$x, $y, $z, $blur, $c;
+    -moz-box-shadow: $x, $y, $z, $blur, $c;
+    -ms-box-shadow: $x, $y, $z, $blur, $c;
+     box-shadow: $x, $y, $z, $blur, $c;
+}
+*/
+
+// @font-face {
+//     font-family: 'aileron-heavy';
+//     src: url('../fonts/aileron/Aileron-Heavy.otf')
+// }
+
+// @font-face {
+//     font-family: 'aileron-regular';
+//     src: url('../fonts/aileron/Aileron-Regular.otf');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #87BAB3;
+    width: 600px;
+    margin: 3em auto;
+}
+
+#editor, #preview{
+    box-shadow: 0px 0px 15px 1px #000000;
+    background-color: $general-rule;
+    border: 1px solid #000000;
+   
+}
+
+#editor{
+    width: 590px;
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+}
+
+
+.preview-container{
+    margin-top: 3em;
+}
+
+.preview-header, .editor-header{
+    font-family: 'Bungee', cursive;
+    background-color:#1BC0A9;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 15px 1px #000000;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#preview{
+    padding-left: 10px;
+}
+
+
